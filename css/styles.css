@@ -93,10 +93,6 @@ header {
   background-color: #404bbf;
 }
 
-.box {
-  background-color: #fff;
-}
-
 .site-nav .link-nav {
   color: #2e2f42;
   font-weight: 500;
@@ -149,7 +145,7 @@ header {
   text-transform: capitalize;
 }
 
-.background {
+.team-card {
   background-color: #fff;
 }
 
@@ -172,7 +168,7 @@ header {
   text-transform: uppercase;
 }
 
-span .footer-logo {
+.footer .footer-logo {
   color: #f4f4fd;
 }
 
