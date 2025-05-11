@@ -1,25 +1,29 @@
 body {
+  color: #434455;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 ul {
   list-style-type: none;
 }
 
-h1 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-}
-
 .logo {
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #2e2f42;
 }
 
 .logo:hover {
@@ -43,14 +47,25 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contacts .link-contacts:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
-.hero {
+.contacts .link-contacts:focus {
+  color: #404bbf;
+}
+
+.hero .page-title {
+  color: #fff;
   background-color: #2e2f42;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .hero .button {
@@ -59,9 +74,15 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
-.hero .button:active {
+.hero .button:hover {
+  color: #404bbf;
+}
+
+.hero .button:focus {
   color: #404bbf;
 }
 
@@ -70,10 +91,15 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link-nav:hover {
+  color: #404bbf;
 }
 
 .site-nav .link-nav:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .title {
@@ -81,25 +107,54 @@ header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .text {
   color: #434455;
 }
 
-.section-title {
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .section-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-footer {
+.background {
+  background-color: #fff;
+}
+
+.footer {
   background-color: #2e2f42;
 }
-.text-footer {
+.footer .text-footer {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.footer .logo {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+footer .logo span {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  letter-spacing: 0.02em;
 }
