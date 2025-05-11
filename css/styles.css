@@ -42,6 +42,10 @@ header {
   line-height: 1.5;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts .link-contacts {
   color: #434455;
   font-weight: 400;
@@ -58,9 +62,12 @@ header {
   color: #404bbf;
 }
 
+.hero {
+  background-color: #2e2f42;
+}
+
 .hero .page-title {
   color: #fff;
-  background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -79,11 +86,15 @@ header {
 }
 
 .hero .button:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .hero .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
+}
+
+.box {
+  background-color: #fff;
 }
 
 .site-nav .link-nav {
@@ -161,7 +172,7 @@ header {
   text-transform: uppercase;
 }
 
-footer .logo span {
+span .footer-logo {
   color: #f4f4fd;
 }
 
