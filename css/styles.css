@@ -1,5 +1,20 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 
 .logo {
@@ -7,12 +22,84 @@ body {
   font-weight: 700;
 }
 
+.logo:hover {
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
 header {
   background: #fff;
 }
 
+.link-nav {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contacts .link-contacts {
+  color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contacts .link-contacts:hover {
+  color: #4d5ae5;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero .button {
+  color: #fff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero .button:active {
+  color: #404bbf;
+}
+
+.site-nav .link-nav {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-nav .link-nav:focus {
+  color: #4d5ae5;
+}
+
 .title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
+}
+
+.text {
+  color: #434455;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+.text-footer {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
