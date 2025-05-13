@@ -20,6 +20,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .logo span {
@@ -52,6 +53,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .contacts .link-contacts:hover {
@@ -99,6 +101,7 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link-nav:hover {
@@ -166,6 +169,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer .footer-logo {
